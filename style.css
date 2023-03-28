@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    cursor: pointer;
+}
+
+#header .logo {
+    background-color: transparent;
+    border: 1px solid rgb(170, 138, 56);
+    padding: 1px 12px;
+    letter-spacing: 1px;
+}
+#header .logo:hover{
+    background-color: purple;
+}
+#header .list-packet {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#header .list-packet li {
+    margin: 0 10px;
+}
+
+#header .list-packet li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all .2s step-end;
+}
+
+.active-link {
+    border-bottom: 3px solid rgb(240, 196, 87);
+}
+
+#header .list-packet li a:hover {
+    border-bottom: 3px solid rgb(240, 196, 87);
+
+}
+
+.btn button {
+    border-radius: 3px;
+    padding: 4px 10px;
+    font-size: 15px;
+    background-color: rgb(240, 196, 87);
+}
+
+.heading {
+    width: 100%;
+    background-image: url(banner-2.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading .texual {
+    color: #fff;
+    padding: 17rem 8.5rem;
+}
+
+.heading .texual p {
+    width: 55%;
+    margin: 1rem 0;
+}
+
+.heading .texual button {
+    padding: 4px 9px;
+    font-size: 15px;
+    background-color: rgb(240, 196, 87);
+    border: none;
+}
+
+.texual h2 {
+    color: rgba(240, 236, 16, 0.767);
+}
+
+.abou-us {
+    width: 100%;
+    margin: auto;
+    background-image: url(About-1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    border-radius: 3px;
+}
+
+.text-part {
+    padding: 7rem 4rem;
+
+}
+
+.text-part h1 {
+    color: #fff;
+    border-left: 3px solid rgb(240, 196, 87);
+}
+
+.text-part h2 {
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.text-part p {
+    width: 45%;
+    margin: 1rem 0;
+    line-height: 30px;
+    color: rgb(228, 206, 82);
+}
+
+.text-part button {
+    border-radius: 3px;
+    padding: 4px 10px;
+    font-size: 15px;
+    background-color: rgb(240, 196, 87);
+    border: none;
+    font-size: 16px;
+}
+
+.shoppart {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.shoppart h1 {
+    border-left: 3px solid rgb(240, 196, 87);
+    height: 4vh;
+}
+
+.cornal button {
+    border-radius: 3px;
+    padding: 4px 13px;
+    font-size: 15px;
+    background-color: rgb(240, 196, 87);
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.production {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 4rem auto;
+    justify-content: center;
+
+}
+
+.production .image1 {
+    background: url(Product-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.production .image2 {
+    background: url(Product-3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.production .image3 {
+    background: url(Product-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.imgine-part {
+    height: auto;
+    margin: 0 8px;
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 29rem;
+    color: #fff;
+}
+
+.imgine-part button {
+    background-color: red;
+    color: #fff;
+    padding: 2px 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.imgine-part .btn {
+    background-color: transparent;
+    border: 1px solid ghostwhite;
+}
+
+.imgine-part .btn:hover {
+    background-color: midnightblue;
+}
+
+.imgine-part p {
+    margin: 8px 0;
+}
+
+.imgine-part h1 {
+    margin: 6px 0;
+}
+
+.imgine-part p {
+    width: 60%;
+}
+
+.contact-with {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.watch-img img {
+    margin: 1rem 0;
+    border: 2px solid rgb(121, 88, 17);
+}
+
+.watch-img h1 {
+
+    border-left: 3px solid rgb(160, 160, 56);
+}
+
+.contact-page h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.contact-page input {
+    border: 1px solid gray;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    margin: .5rem 0;
+    padding: 6px 0;
+}
+
+.contact-page button {
+    background-color: rgb(236, 236, 68);
+    margin: 12px 40px;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+}
+
+.contact-page textarea {
+    outline: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.collation-img {
+    display: flex;
+    height: auto;justify-content: center;
+}
+
+.footer-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-image: url(Footer.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-page ul {
+    margin: 0 2rem;
+    list-style-type: none;
+    height: auto;
+}
+
+.footer-page ul li {
+    margin: .5rem 0;
+}
+
+.icon div {
+    width: 25px;
+    height: 3px;
+    background-color: red;
+    margin: 6px 0;
+    display: none;
+}
+
+@media(max-width:900px) {
+    .icon div {
+        display: block;
+    }
+
+    #header .list-packet {
+        display: none;
+        position: absolute;
+        top: 2.2rem;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #11101b;
+        width: 80%;
+        margin: auto;
+    }
+
+    #header .list-packet.active {
+        display: block;
+        text-align: center;
+    }
+
+    #header .list-packet li {
+        margin: 9px 0;
+    }
+
+    .shoppart {
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .production {
+        flex-wrap: wrap;
+    }
+
+    .production #h1 {
+        margin-top: -3rem;
+    }
+
+    .image1 {
+        margin-right: 4rem;
+    }
+
+    .contact-with {
+        flex-wrap: wrap;
+    }
+
+    .watch-img img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .collation-img {
+        flex-wrap: wrap;
+    }
+
+    .footer-page {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+
+    .footer-page ul {
+        font-size: 14px;
+    }
+
+    .heading .texual p {
+        width: 90%;
+    }
+
+    .text-part p {
+        width: 95%;
+    }
+}
